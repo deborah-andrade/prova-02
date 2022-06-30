@@ -1,4 +1,4 @@
-m = [[0, 0, 0], [0, 0, 0]   #comecei criando a matriz com os números escolhidos pela pessoa.
+m = [[0, 0, 0], [0, 0, 0]]  #comecei criando a matriz com os números escolhidos pela pessoa.
 for l in range(0, 2):
     for c in range(0, 3):
         m[l][c] = float(input(f'Digite um valor para [{l}, {c}]: '))         #usando for in range faz o cog ficar menor, não precisando utilizar append.
